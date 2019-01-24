@@ -1,0 +1,89 @@
+body{
+  font-family: serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0C3E6A;
+  color: white;
+}
+
+.navbar__title {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 20px;
+}
+
+.navbar__list li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.home {
+  margin: 20px;
+  height: 80vh;
+  text-align: center;
+  border: 1px solid #8F9AA4;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home li {
+  margin: 30px auto;
+  border: 1px solid #8F9AA4;
+  padding: 20px 0;
+  width: 20%;
+}
+
+.classlist {
+  margin: 20px;
+  text-align: center;
+  border: 1px solid #8F9AA4;
+  height: 80vh;
+}
+
+.student {
+  border: 1px solid #8F9AA4;
+  margin: 35px;
+  padding-left: 20px;
+  height: 80vh;
+}
+
+.subnavbar {
+  font-size: 20px;
+  background-color:lightgrey;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.subnavbar a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.about, .history, .contact {
+  border: 1px solid #8F9AA4;
+  margin: 20px;
+  padding: 0 30px;
+  height: 70vh;
+  text-align: justify;
+}
+
+.about h2, .history h2 {
+  text-align: center;
+}
+
+.contact {
+text-align: center;
+}
